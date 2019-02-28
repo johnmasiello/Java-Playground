@@ -1,8 +1,8 @@
-package test;
+package com.demo.unit;
 
 import org.junit.Test;
 
-import demo.JumpingOnTheClouds;
+import com.demo.hackerrank.JumpingOnTheClouds;
 
 import org.junit.Assert;
 

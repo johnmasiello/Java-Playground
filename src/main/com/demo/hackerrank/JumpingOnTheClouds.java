@@ -1,4 +1,4 @@
-package demo;
+package com.demo.hackerrank;
 
 public class JumpingOnTheClouds {
 	public static int jumpingOnClouds(int[] c) {

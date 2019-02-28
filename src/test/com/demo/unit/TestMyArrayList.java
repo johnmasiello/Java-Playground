@@ -1,4 +1,4 @@
-package test;
+package com.demo.unit;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import org.junit.Before;
 import org.junit.Test;
 
-import demo.MyArrayList;
+import com.demo.more.playground.MyArrayList;
 
 public class TestMyArrayList {
 	private MyArrayList<Integer> arrayList;

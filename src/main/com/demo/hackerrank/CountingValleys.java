@@ -1,4 +1,4 @@
-package demo;
+package com.demo.hackerrank;
 
 public class CountingValleys {
 	public static int countingValleys(int n, String s) {

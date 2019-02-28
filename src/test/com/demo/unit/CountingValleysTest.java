@@ -1,11 +1,10 @@
-package test;
+package com.demo.unit;
 
 import static org.junit.Assert.*;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
-import demo.CountingValleys;
+import com.demo.hackerrank.CountingValleys;
 
 public class CountingValleysTest {
 	@Test
