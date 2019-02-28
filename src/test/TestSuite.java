@@ -7,7 +7,8 @@ import org.junit.runners.Suite;
 
 @Suite.SuiteClasses({
 	TestMyArrayList.class,
-	CountingValleysTest.class
+	CountingValleysTest.class,
+	JumpingOnTheCloudsTest.class
 })
 public class TestSuite {
 }
