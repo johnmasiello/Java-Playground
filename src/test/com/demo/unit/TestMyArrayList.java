@@ -22,7 +22,7 @@ public class TestMyArrayList {
 
 	@Test(expected = IllegalStateException.class)
 	public void testIllegalStateIterator() {
-		for (int _ : arrayList) {
+		for (@SuppressWarnings("unused") int ignore : arrayList) {
 			arrayList.add(55);
 		}
 	}

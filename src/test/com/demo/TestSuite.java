@@ -11,7 +11,9 @@ import com.demo.unit.*;
 	TestMyArrayList.class,
 	CountingValleysTest.class,
 	JumpingOnTheCloudsTest.class,
-	RepeatedStringTest.class
+	RepeatedStringTest.class,
+	TwoDArrayTest.class,
+	ArrayLeftRotationTest.class
 })
 public class TestSuite {
 }
