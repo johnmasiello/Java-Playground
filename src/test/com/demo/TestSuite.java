@@ -13,7 +13,8 @@ import com.demo.unit.*;
 	JumpingOnTheCloudsTest.class,
 	RepeatedStringTest.class,
 	TwoDArrayTest.class,
-	ArrayLeftRotationTest.class
+	ArrayLeftRotationTest.class,
+	NewYearChaosTest.class
 })
 public class TestSuite {
 }
