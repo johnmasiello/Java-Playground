@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.demo.hackerrank.NewYearChaos;
@@ -12,6 +13,7 @@ import com.demo.hackerrank.NewYearChaos;
 public class NewYearChaosTest {
 
 	@Test
+	@Ignore
 	public void test() {
 		// Create a stream to hold the output
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
