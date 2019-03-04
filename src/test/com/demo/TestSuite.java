@@ -14,7 +14,9 @@ import com.demo.unit.*;
 	RepeatedStringTest.class,
 	TwoDArrayTest.class,
 	ArrayLeftRotationTest.class,
-	NewYearChaosTest.class
+	NewYearChaosTest.class,
+	MinimumSwaps2Test.class,
+	ArrayManipulationTest.class
 })
 public class TestSuite {
 }
