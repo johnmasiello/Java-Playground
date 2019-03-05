@@ -31,8 +31,9 @@ public class SherlockAndAnagrams {
             numberOfAnagramPairs += numberOfPairsOfSetOfSizeN(setIndicies.size());
         }
         
-        return numberOfAnagramPairs +
-        		computeNthDegreeAnagramPairCount(2, s, hashmap);
+        return numberOfAnagramPairs > 0 ? numberOfAnagramPairs +
+        		computeNthDegreeAnagramPairCount(2, s, hashmap) :
+        			0;
     }
 	
 	// Define An Anagram substring by its leftmost index
@@ -49,7 +50,8 @@ public class SherlockAndAnagrams {
 		// or one character to the right, using the substrings in 
 		// inputMap as 'anchors'
 		for (Map.Entry<String, Set<Integer>> entry : inputMap.entrySet()) {
-			if (entry.getValue().size() < 2)
+			if (entry.getValue().size() < 2 && 
+					n == 2)
 				continue;
 			substrAnchor = entry.getKey();
 			anagramPairIndicies = entry.getValue();
@@ -84,7 +86,7 @@ public class SherlockAndAnagrams {
             numberOfAnagramPairs += numberOfPairsOfSetOfSizeN(setIndicies.size());
         }
         
-        return numberOfAnagramPairs == 0 ? 0 :
+        return n >= s.length() ? numberOfAnagramPairs :
         	numberOfAnagramPairs + computeNthDegreeAnagramPairCount(++n, s, hashmap);
 	}
 	

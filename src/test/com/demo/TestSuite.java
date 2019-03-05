@@ -19,7 +19,8 @@ import com.demo.unit.*;
 	ArrayManipulationTest.class,
 	CommonElementsTwoSortedArraysTest.class,
 	PermutationsAsSubstringsTest.class,
-	TwoStringsTest.class
+	TwoStringsTest.class,
+	SherlockAndAnagramsTest.class
 })
 public class TestSuite {
 }
