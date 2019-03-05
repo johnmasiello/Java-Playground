@@ -190,12 +190,34 @@ public class ArrayManipulation {
 		}
 	}
 	
-	public static long arrayManipulation(int n, int[][] queries) {
+	public static long arrayManipulation_Query(int n, int[][] queries) {
 		QueryProcessor qp = new QueryProcessor(n);
 		long max = 0;
 		for (int[] query : queries) {
 			max = qp.consumeQuery(new Query(query[0], query[1], query[2]), 
 					max);
+		}
+		return max;
+	}
+	
+	// https://www.geeksforgeeks.org/difference-array-range-update-query-o1/
+	// queries uses 1-based counting on the indicies
+	public static long arrayManipulation(int n, int[][] queries) {
+		long[] diff = new long[n + 1];
+		
+		// Aggregate all of the query updates utilizing a difference array
+		for (int[] query : queries) {
+			diff[--query[0]] += query[2];
+			diff[query[1]] -= query[2];
+		}
+
+		// Iterate over the values of the array by applying the difference array
+		// to determine the maximum value after all of the query updates
+		long max = diff[0];
+		for (int i = 1; i < n; i++) {
+			diff[i] += diff[i - 1];
+			if (diff[i] > max)
+				max = diff[i];
 		}
 		return max;
 	}

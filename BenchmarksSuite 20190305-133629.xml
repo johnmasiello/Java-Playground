@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BenchmarksSuite" project="Java-Playground" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.demo.BenchmarksSuite" time="439.134">
+    <testsuite name="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="439.134">
+      <testcase name="crunchUsingImprovedAlgo" classname="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="45.275"/>
+      <testcase name="crunchUsingBasicAlgo" classname="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="393.859"/>
+    </testsuite>
+  </testsuite>
+</testrun>

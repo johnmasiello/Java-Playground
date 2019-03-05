@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BenchmarksSuite" project="Java-Playground" tests="3" started="3" failures="0" errors="0" ignored="2">
+  <testsuite name="com.demo.BenchmarksSuite" time="0.348">
+    <testsuite name="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="0.348">
+      <testcase name="crunchUsingArrayDifferencesAlgorithm" classname="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="0.347"/>
+      <testcase name="crunchUsingImprovedAlgo" classname="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="0.0" ignored="true"/>
+      <testcase name="crunchUsingBasicAlgo" classname="com.demo.unit.benchmark.ArrayManipulationBenchmark" time="0.0" ignored="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,13 +1,12 @@
 package com.demo.unit;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 import com.demo.hackerrank.ArrayManipulation;
 
 public class ArrayManipulationTest {
-
 	@Test
 	public void test1() {
 		int n = 5;
