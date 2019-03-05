@@ -14,7 +14,7 @@ public class CommonElementsTwoSortedArrays {
 		
 		int[] src, target, swap;
 		
-		// src needs to start with the array with the lesser first element
+		// src needs to start with the array with the lesser first-element
 		if (a[0] < b[0]) {
 			src = a;
 			target = b;

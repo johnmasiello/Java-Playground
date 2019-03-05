@@ -17,7 +17,9 @@ import com.demo.unit.*;
 	NewYearChaosTest.class,
 	MinimumSwaps2Test.class,
 	ArrayManipulationTest.class,
-	CommonElementsTwoSortedArraysTest.class
+	CommonElementsTwoSortedArraysTest.class,
+	PermutationsAsSubstringsTest.class,
+	TwoStringsTest.class
 })
 public class TestSuite {
 }

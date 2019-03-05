@@ -31,7 +31,7 @@ public class NewYearChaosTest {
 		System.setOut(old);
 		
 		assertArrayEquals(new String[] {"Too chaotic",  "7"},
-				baos.toString().split("\r\n"));
+				baos.toString().split("\\r\\n|\\n\\r\\u2028\\u2029\\u0085]"));
 	}
 
 }
