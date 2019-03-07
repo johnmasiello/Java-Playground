@@ -20,7 +20,8 @@ import com.demo.unit.*;
 	CommonElementsTwoSortedArraysTest.class,
 	PermutationsAsSubstringsTest.class,
 	TwoStringsTest.class,
-	SherlockAndAnagramsTest.class
+	SherlockAndAnagramsTest.class,
+	CountTripletsTest.class
 })
 public class TestSuite {
 }
